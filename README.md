@@ -7,17 +7,18 @@
 Перечисление избыточно! Что-то можно потом добавить (под звездочками)
 
 #### Функциональные
-- User History : 10005
-- Passport :10004
+- User History : (marketplace-userhistory)
+  + Информация о покупках и изменении рейтинга
+- Passport (marketplace-passport)
   + Базовая информация о пользователе
-- Marketplace-frontend :10003
+- Marketplace-frontend 
   + React SPA-приложение
-- Gate (собирает воедино) :10002
+- Gate (собирает воедино) 
   + One gate to rule them all
-- Products (Товары) :10000
+- Products (Товары) (marketplace-products)
   + Стандартные CRUD операции с товарами
   + Поиск, фильтрация товаров
-- Adviser (крутые алгоритмы здесь!) :10001
+- Adviser (крутые алгоритмы здесь!) (marketplace-adviser)
   + Подбор похожих и нужных товаров
 - *Auth (JWT, позже OAuth2, авторизация)
 - *Profile (страница продавца)
